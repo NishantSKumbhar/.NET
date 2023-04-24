@@ -1,11 +1,12 @@
 ﻿using ConsoleApp1.Math;
+using ConsoleApp1.Recursion;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
+// https://www.techiedelight.com/
 
 namespace ConsoleApp1
 {
@@ -44,10 +45,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            int[] arr = { 72381, 56, 3, 2, 34 , 1000};
+            Recursion_1 r1 = new Recursion_1();
 
-            Console.WriteLine(trailingZeros(25));
-            Console.WriteLine(gcd(78, 36));
-            Console.WriteLine(fastPower(3, 5));
+            Console.WriteLine(r1.reverseStringRec("GeeksForGeeks", 12));
+            
+
         }
 
         
