@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace ConsoleApp1.Recursion
 {
-    public class Class1
+    internal class Josephus
     {
-        public static void m1()
+        public int josephus(int n, int k)
         {
-            Console.WriteLine("\nInside the Class1");
-
-            
+            int ans = 3;
+            return ans;
         }
     }
 }

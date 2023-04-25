@@ -44,10 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Enum\EnumBasic.cs" />
     <Compile Include="Math\Circle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recursion\Recursion_1.cs" />
+    <Compile Include="Recursion\Recursion_2.cs" />
+    <Compile Include="Sorting\BubbleSort.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="String\BasicsStrings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,5 +1,8 @@
 ﻿using ConsoleApp1.Math;
 using ConsoleApp1.Recursion;
+using ConsoleApp1.Sorting;
+using ConsoleApp1.String;
+using ConsoleApp1.Enum; 
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,15 +48,27 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int[] arr = { 72381, 56, 3, 2, 34 , 1000};
-            Recursion_1 r1 = new Recursion_1();
+            int[] arr = new int[10] { 10, 9, 2, 3, 4, 2, 6, 7, 92, 9 };
 
-            Console.WriteLine(r1.reverseStringRec("GeeksForGeeks", 12));
-            
+            //Console.WriteLine("Enter the First Name : ");
+            //string fname = Console.ReadLine();
+
+            //Console.WriteLine("Enter the Last Name : ");
+            //string lname = Console.ReadLine();
+
+            //Console.WriteLine("Enter the Age : ");
+            //int age = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine(string.Format("Hello, {0} {1}, you are {2} years old.", fname, lname, age));
+
+            foreach(int i in arr )
+            {
+                Console.WriteLine(i);
+            }
 
         }
 
-        
+
 
 
         // FastPower
