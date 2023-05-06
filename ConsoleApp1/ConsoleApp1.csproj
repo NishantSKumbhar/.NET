@@ -52,6 +52,7 @@
     <Compile Include="Recursion\Recursion_2.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="String\BasicsStrings.cs" />
   </ItemGroup>
   <ItemGroup>

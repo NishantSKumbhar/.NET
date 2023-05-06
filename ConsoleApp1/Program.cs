@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 // https://www.techiedelight.com/
 
@@ -48,7 +49,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[10] { 10, 9, 2, 3, 4, 2, 6, 7, 92, 9 };
+            //int[] arr = new int[10] { 10, 9, 2, 3, 4, 2, 6, 7, 92, 9 };
 
             //Console.WriteLine("Enter the First Name : ");
             //string fname = Console.ReadLine();
@@ -61,14 +62,44 @@ namespace ConsoleApp1
 
             //Console.WriteLine(string.Format("Hello, {0} {1}, you are {2} years old.", fname, lname, age));
 
-            foreach(int i in arr )
+            //Recursion_2 r2 = new Recursion_2();
+            //Console.WriteLine("Gun at index : " + r2.josephus(15, 9));
+
+            //int[,] td = new int[2, 3] 
+            //{
+            //    {1, 2, 4 },
+            //    {5, 3, 2 }
+            //};
+
+
+            //var array = new int[3][];
+            //array[0] = new int[3];
+            //array[1] = new int[6];
+            //array[2] = new int[2];
+
+            //array[0][0] = 1000;
+            //Console.WriteLine(array[0][0]);
+
+            //SelectionSort s1 = new SelectionSort();
+            //int[] arr = new int[10] { 10, 9, 2, 3, 4, 2, 6, 7, 92, 9 };
+            //int[] brr = new int[6] { 6, 5, 4, 3, 2, 1 };
+            //s1.selectionSort(brr);
+
+            //Recursion_2 r2 = new Recursion_2();
+            //Console.WriteLine(r2.josephusRec(5, 3));
+
+            var myPhotoPath = @"D:\Screenshots\IMG_20190321_150050.png";
+            if (File.Exists(myPhotoPath))
             {
-                Console.WriteLine(i);
+                Console.WriteLine("Yes Exist");
+            }
+            else
+            {
+                Console.WriteLine("No");
             }
 
+            File.Copy(myPhotoPath, myPhotoPath, true);
         }
-
-
 
 
         // FastPower
