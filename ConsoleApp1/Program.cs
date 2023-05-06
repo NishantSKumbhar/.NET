@@ -88,17 +88,17 @@ namespace ConsoleApp1
             //Recursion_2 r2 = new Recursion_2();
             //Console.WriteLine(r2.josephusRec(5, 3));
 
-            var myPhotoPath = @"D:\Screenshots\IMG_20190321_150050.png";
-            if (File.Exists(myPhotoPath))
-            {
-                Console.WriteLine("Yes Exist");
-            }
-            else
-            {
-                Console.WriteLine("No");
-            }
+            //var myPhotoPath = @"D:\Screenshots\IMG_20190321_150050.png";
+            //if (File.Exists(myPhotoPath))
+            //{
+            //    Console.WriteLine("Yes Exist");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No");
+            //}
 
-            File.Copy(myPhotoPath, myPhotoPath, true);
+            //File.Copy(myPhotoPath, myPhotoPath, true);
         }
 
 
