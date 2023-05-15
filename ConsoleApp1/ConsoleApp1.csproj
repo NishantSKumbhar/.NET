@@ -44,12 +44,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
     <Compile Include="Enum\EnumBasic.cs" />
+    <Compile Include="ExceptionInfo\ExceptionMainStart.cs" />
+    <Compile Include="ExceptionInfo\YouTubeApi.cs" />
+    <Compile Include="ExceptionInfo\YouTubeException.cs" />
+    <Compile Include="Inheritance\Employee.cs" />
     <Compile Include="Math\Circle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recursion\Recursion_1.cs" />
     <Compile Include="Recursion\Recursion_2.cs" />
+    <Compile Include="SOLID\LiskovSubstitution.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
@@ -58,5 +64,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
