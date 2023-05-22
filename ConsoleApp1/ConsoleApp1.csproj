@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="75-Hard\Day_1.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Class2.cs" />
     <Compile Include="Enum\EnumBasic.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Recursion\Recursion_1.cs" />
     <Compile Include="Recursion\Recursion_2.cs" />
     <Compile Include="SOLID\LiskovSubstitution.cs" />
+    <Compile Include="SOLID\Sample.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />

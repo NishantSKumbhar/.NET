@@ -5,7 +5,9 @@ using ConsoleApp1.String;
 using ConsoleApp1.Enum;
 using ConsoleApp1.SOLID;
 using ConsoleApp1.Inheritance;
-using ConsoleApp1.ExceptionInfo;
+//using ConsoleApp1.Exception;
+
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +16,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Linq.Expressions;
 using ConsoleApp1.Exception;
+using ConsoleApp1._75_Hard;
 
 // https://www.techiedelight.com/
 
@@ -54,44 +57,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[5] { 1, 2, 3, 4, 5 };
+            int[] arr = new int[6] { 8, 7, 2, 5, 3, 1 };
+            int[] arr1 = new int[6] { 5, 2, 6, 8, 1, 9 };
 
-            int i = 8;
-            //try
-            //{
-
-            //    int ans = arr[i];
-            //}
-            ////catch( Exception e)
-            ////{
-            ////    Console.WriteLine(e.Message);
-            ////}
-            //catch(IndexOutOfRangeException ie) when(i < 0)
-            //{
-            //    throw new ArgumentOutOfRangeException("Index can not be negative.", ie);
-            //}
-            //catch (IndexOutOfRangeException ie)
-            //{
-            //    throw new ArgumentOutOfRangeException("Index can not be grater than size of array.", ie);
-            //}
-
-            //Employee e1 = new Employee
-            //{
-            //    name = "Mosh",
-            //    id = 2,
-            //    gender = "Male",
-            //    isWorking = true
-            //};
-
-            //e1.show();
-            //Class2 c2 = Class2.getInstance();
-            //Console.WriteLine(c2); // return : ConsoleApp1.Class2 
-            //Class2 c3 = Class2.getInstance();
-            //Console.WriteLine(c3); // return : ConsoleApp1.Class2 
-
-            ExceptionMainStart.start();
-
-
+            Day_1.PairSumArrayHash(arr, 10);
 
         }
 
