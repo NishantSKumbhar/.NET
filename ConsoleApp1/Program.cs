@@ -59,8 +59,44 @@ namespace ConsoleApp1
         {
             int[] arr = new int[6] { 8, 7, 2, 5, 3, 1 };
             int[] arr1 = new int[6] { 5, 2, 6, 8, 1, 9 };
+            int[] brr = new int[5] { 0, 1, 1, 0, 0 };
+            int[] crr = new int[] { -10, -3, 5, 6, -2 };
 
-            Day_1.PairSumArrayHash(arr, 10);
+
+            //DateTime t1 = DateTime.Now;
+            //Console.WriteLine(t1);
+            //DateTime t2 = DateTime.UtcNow;
+            //Console.WriteLine(t2);
+            //TimeSpan t = t1 - t2;
+            //Console.WriteLine(t);
+            string s = "";
+            do
+            {
+                Console.WriteLine(">>> Enter :");
+                s = Console.ReadLine();
+
+                if(s == "start")
+                {
+                    StopWatch.start();
+                }
+                else if(s == "stop")
+                {
+                    StopWatch.stop();
+                }
+                else if(s == "duration")
+                {
+                    TimeSpan t = StopWatch.t1 - StopWatch.t2;
+                    Console.WriteLine("Time Duration : " + t);
+                }
+                else
+                {
+                    Console.WriteLine("You missed ! Please try again.");
+                    break;
+
+                }
+                
+
+            } while (s != "q" || s != "Q");
 
         }
 

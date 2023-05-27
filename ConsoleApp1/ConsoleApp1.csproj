@@ -56,11 +56,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recursion\Recursion_1.cs" />
     <Compile Include="Recursion\Recursion_2.cs" />
+    <Compile Include="SKY.cs" />
     <Compile Include="SOLID\LiskovSubstitution.cs" />
     <Compile Include="SOLID\Sample.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="StopWatch.cs" />
     <Compile Include="String\BasicsStrings.cs" />
   </ItemGroup>
   <ItemGroup>
