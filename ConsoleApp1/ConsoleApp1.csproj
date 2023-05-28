@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="75-Hard\Day_1.cs" />
+    <Compile Include="Casting.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Class2.cs" />
     <Compile Include="Enum\EnumBasic.cs" />

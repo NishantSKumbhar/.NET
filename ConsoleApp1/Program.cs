@@ -69,34 +69,41 @@ namespace ConsoleApp1
             //Console.WriteLine(t2);
             //TimeSpan t = t1 - t2;
             //Console.WriteLine(t);
-            string s = "";
-            do
-            {
-                Console.WriteLine(">>> Enter :");
-                s = Console.ReadLine();
+            //string s = "";
+            //do
+            //{
+            //    Console.WriteLine(">>> Enter :");
+            //    s = Console.ReadLine();
 
-                if(s == "start")
-                {
-                    StopWatch.start();
-                }
-                else if(s == "stop")
-                {
-                    StopWatch.stop();
-                }
-                else if(s == "duration")
-                {
-                    TimeSpan t = StopWatch.t1 - StopWatch.t2;
-                    Console.WriteLine("Time Duration : " + t);
-                }
-                else
-                {
-                    Console.WriteLine("You missed ! Please try again.");
-                    break;
+            //    if(s == "start")
+            //    {
+            //        StopWatch.start();
+            //    }
+            //    else if(s == "stop")
+            //    {
+            //        StopWatch.stop();
+            //    }
+            //    else if(s == "duration")
+            //    {
+            //        TimeSpan t = StopWatch.t1 - StopWatch.t2;
+            //        Console.WriteLine("Time Duration : " + t);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("You missed ! Please try again.");
+            //        break;
 
-                }
-                
+            //    }
 
-            } while (s != "q" || s != "Q");
+
+            //} while (s != "q" || s != "Q");
+
+            Text t1 = new Text();
+            Shape s1 = t1;
+
+            // downcast
+            Text t2 = (Text)s1;
+            
 
         }
 
